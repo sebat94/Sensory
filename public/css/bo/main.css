@@ -1,0 +1,237 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(36, 35, 48);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(36, 35, 48);
+}
+
+input[type=text],
+input[type=password] {
+  margin: auto;
+  border: 0;
+  box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  border-bottom: 1px solid rgb(36, 35, 48);
+  border-radius: 0;
+  color: rgb(36, 35, 48);
+  outline: 0;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  border-color: rgba(23, 200, 185, 1);
+}
+
+.input_ancho {
+  width: 260px;
+}
+
+.login_btn,
+.add_btn {
+  height: 40px;
+  border-radius: 100px;
+  color: white;
+  font-weight: 600;
+  margin: auto;
+}
+
+.login_btn {
+  border: 1px solid rgb(36, 35, 48);
+  background: rgb(36, 35, 48);
+  width: 120px;
+}
+
+.add_btn {
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.box {
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border: 1px solid rgba(23, 200, 185, 0.3);
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(23, 200, 185, 1);
+}
+
+.navbar-brand,
+#navbar ul li a {
+  color: rgb(36, 35, 48) !important;
+}
+
+#navbar ul li.activa::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(23, 200, 185, 1);
+}
+
+#navbar ul li:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(23, 200, 185, 0.5);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: rgba(23, 200, 185, 1);
+}
+
+.navbar-default .navbar-toggle {
+  border: 0;
+}
+
+.navbar-toggle .collapsed {
+  background: white !important;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background: white !important;
+}
+
+main {
+  margin-top: 70px;
+}
+
+table th {
+  background: rgba(23, 200, 185, 1);
+}
+
+.acciones {
+  padding-left: 5px;
+}
+
+.accion {
+  color: rgb(36, 35, 48);
+}
+
+.separacion_parrafo {
+  padding-top: 20px;
+}
+
+textarea {
+  margin-bottom: 10px;
+}
+
+.btn_add_photo {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px){
+  #navbar ul li.activa::before {
+    width: 5px;
+    height: 100%;
+  }
+
+  #navbar ul li{
+    transition: text-indent 0.4s ease;
+      -webkit-transition: text-indent 0.4s ease;
+      -moz-transition: text-indent 0.4s ease;
+      -ms-transition: text-indent 0.4s ease;
+      -o-transition: text-indent 0.4s ease;
+  }
+  #navbar ul li.activa,
+  #navbar ul li:hover{
+    text-indent: 15px;
+  }
+
+  #navbar ul li:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: rgba(23, 200, 185, 0.5);
+  }
+}
+
+.foto_edit {
+  width: 100%;
+}
+
+.btn_eliminar {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.panel_nuevo_parrafo {
+  display: none;
+}
+.panel-heading{
+  position:relative;
+}
+.btn_submit{
+  width:40px;
+  height:40px;
+  float:right;
+  position:absolute;
+  top:0;
+  right:0;
+  text-align:center;
+}
+.btn_submit i{
+  width:100%;
+  height:100%;
+  display:block;
+  font-style:normal;
+  color:rgb(36, 35, 48);
+  font-size:26px;
+  line-height:40px;
+}
+.btn_submit input[type="submit"]{
+  width:100%;
+  height:100%;
+  background:transparent;
+  border:none;
+  position:absolute;
+  top:0;
+  right:0;
+  padding:0;
+}
+
+.foto_perfil {
+  max-width: 500px;
+  width: 30%;
+  height: auto;
+}
+
+.foto_perfil img {
+  width: 100%;
+  height: auto;
+}
+
+.categoria_miembro {
+  text-transform: capitalize;
+}
+
+.float_left {
+  float: left;
+}
+
+.acciones_categoria {
+  margin-top: 27px;
+  margin-left: 10px;
+}
