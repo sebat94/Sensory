@@ -1,4 +1,4 @@
-## About Laravel
+## Sensory
 
 Esta página web es un foro donde el administrador podrá gestionar la subida/actualización de nuevas noticias y los seguidores de estas podrán estar al tanto de las noticias de actualidad.
 
